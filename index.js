@@ -3,10 +3,12 @@ const requestN = require('request');
 
 const port = process.env.PORT || 3001;
 
+//add your URL here
 const web_site = COMPLETE_URL_OF_WEBSITE_ALONG_WITH_HTTP/HTTPS
 
 const app = exp();
 
+// function to generate random time for timer
 const timeGen = () => {
 	return time = (15 + Math.random() * 10) *60 *1000; //generates random time between 20-30 mins
 }
